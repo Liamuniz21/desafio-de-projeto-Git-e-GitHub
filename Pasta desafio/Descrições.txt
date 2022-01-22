@@ -1,0 +1,80 @@
+## :orange_book:  Descrições e Nomenclaturas 
+
+
+
+### :page_with_curl: Descrição:
+
+_______________
+
+#### Git : 
+
+É um sistema de controle de versões distribuído, usado principalmente no desenvolvimento de software, mas pode ser usado para registrar o histórico de edições de qualquer tipo de arquivo
+
+#### GitHub :
+
+É uma plataforma de hospedagem de código-fonte e arquivos com controle de versão usando o Git. Ele permite que programadores, utilitários ou qualquer usuário cadastrado na plataforma contribuam em projetos privados e/ou Open Source de qualquer lugar do mundo.
+
+#### Repositório :
+
+São as "localizações" dos arquivos de um determinado projeto. Os usuários podem criar projetos com base em outros já existentes e editá-los à sua maneira.
+
+#### Projeto :
+
+Um projeto tem um inicio e um  fim bem definido, ou seja, tem um objetivo claro, que quando atingido, caracteriza o final do projeto.
+
+#### Branch :
+
+Uma ramificação no git é um ponteiro para as alterações feitas nos arquivos do projeto. É útil em situações nas quais você deseja adicionar um novo recurso ou corrigir um erro, gerando uma nova ramificação garantindo que o código instável não seja mesclado nos arquivos do projeto principal.
+
+#### Commit : 
+
+Um **Commit** é um pacote de alterações feitas no repositório. Cada **commit** possui arquivos alterados, autor e uma mensagem de resumo. Agora o arquivo está pronto para ser empacotado em um **commit**. Escreva o comando de **commit** incluindo uma mensagem que explique o que sua alteração faz no repositório.
+
+#### Clone :
+
+Git clone é um dos muitos comandos do Git. Ele tem como principal proposta **clonar todos os arquivos de repositório remoto para um repositório local**. Por padrão, todo o histórico de commits, branches e merges são copiados também. Esse comando é muito útil para quando precisamos de uma **nova cópia** do projeto ou simplesmente porque queremos conferir alguns arquivos.
+
+#### HTTPS : 
+
+As URLs de clone de `https:/` estão disponíveis em todos os repositórios, independentemente da visibilidade. As URL de clone de `https://` funcionam mesmo se você estiver atrás de um firewall ou proxy.
+
+#### SSH :
+
+As URLs de SSH fornecem acesso a um repositório do Git via SSH, um protocolo seguro. Para usar estas URLs, você deve gerar um par de chaves SSH no seu computador e adicionar a chave **pública** à sua conta em GitHub.com
+
+
+
+______
+
+
+
+### :open_book:Fontes:
+
+_______________________
+
+https://pt.wikipedia.org/wiki/Git
+
+https://pt.wikipedia.org/wiki/GitHub
+
+https://pt.wikipedia.org/wiki/Reposit%C3%B3rio_(software)
+
+https://www.techtudo.com.br/listas/2021/05/o-que-e-o-github-veja-para-que-serve-a-rede-social-de-programadores.ghtml
+
+https://gestaodesegurancaprivada.com.br/conceito-de-projeto-o-que-e-definicao/
+
+https://receitasdecodigo.com.br/devops/git-o-que-e-um-branch
+
+https://blog.betrybe.com/git/git-clone/
+
+https://docs.github.com/pt/get-started/getting-started-with-git/about-remote-repositories
+
+
+
+
+
+
+
+
+
+
+

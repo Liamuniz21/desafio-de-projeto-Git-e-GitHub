@@ -1,0 +1,80 @@
+## Git e Github :space_invader:
+
+###### Sistema Operacional: Windowns - Win
+
+______________________
+
+#### :desktop_computer:    Códigos mais usados:
+
+
+
+###### *cd/* ----      Ir para caminho especifico
+
+###### *dir*  ----      lista de diretórios
+###### mkdir nomepasta --- Criar pasta em um diretorio
+###### echo hello ----
+###### del/ rmdir - deletar
+###### cls --- limpar terminal
+###### tab --- completa 
+###### echo --- identificar uma string
+###### openss1 sha1 doc.extensao ---- ver criptografia
+###### hash -- string de enbarralhar
+
+###### Blob--- tipo, tamanho, \0 --- arquiva meta dados
+###### Tree -- armazena os blobs
+###### Commit --- (arvore, parente, autor, mensage,. timestamp)
+
+###### chave ssh ---chave 
+###### Gerar id : ssh-Keygen -t ed25519 -C emaildapessoa
+
+###### ls >>> mostrar ID
+###### pwd>>> mostrar caminho
+
+###### PIN>
+eval $(ssh-agent -s)
+-Startando o processo
+
+###### mkdmkdir
+adicionando id
+ssh-add id_ed25519
+
+
+
+*Para clonar repositório* 
+
+###### git clone --- link repositorio github
+
+___________________________
+*Comando*
+###### git init
+###### git add
+###### git commit
+
+__________________
+
+*Flags*
+
+###### ls -a : mostra 
+
+
+_______________________________
+*Configurando o Git*
+
+###### git config -- global --unset user.email "meuemail@gmail.com"
+
+###### git config -- global --unset user.name "meu nome"
+
+###### git config -- global --unset user.email "meuemail@gmail.com"
+
+###### git config -- global --unset user.email "meunome"
+
+__________________________________________
+###### git status
+###### git remote add origin "link do github"
+###### git add *
+###### git status
+###### git commit -m "Adiciona pasta projeto clone Netflix" __ adicionar commit
+
+###### git remote -v : ver os arquivos inputados
+
+###### git push origin master : inserir no github
