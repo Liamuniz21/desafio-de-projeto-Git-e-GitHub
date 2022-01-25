@@ -1,0 +1,151 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family:'Poppins', sans-serif;
+    color: rgba(255, 254, 254, 0.664);
+}
+
+img{
+    display: block;
+}
+
+section .container{
+    max-width: 1130px;
+    margin: 0 auto;
+}
+
+header .container{
+    background: rgba(29, 28, 28, 0.897);
+    font-size: 40px;
+    display: flex;
+    flex-direction:column;
+    align-items:center;
+    justify-content:space-between;
+}
+
+header .logo{
+margin-left: 5px;
+color: #af0404;
+font-family: "poppins";
+font-size: 35px; 
+top: 28px;
+}
+
+.header a {
+    position: absolute;
+    z-index: 100;
+    display: inline-block;
+    background: black;
+    color: white;
+    align-self: flex-start;
+    padding: 8px 18px;
+    text-decoration:  none;
+}
+
+.main{
+    height: 785px;
+    background: url("../img/bg.jpg");
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align:center;
+    position: relative;
+}
+
+.main-chil {
+    z-index: 1;
+    display: grid;
+}
+
+.main h1{
+    font-size: 64px;
+    max-width: 480px;
+}
+
+.main span{
+    font-size: 26px;
+}
+
+.main p{
+    font-size: 19px;
+}
+
+
+.button{
+    width: 170px;
+    height: 72px;
+    background-color:rgba(240, 21, 21, 0.863);
+    border: none;
+    color:white;
+
+    padding:15px 30px;
+    margin-top: 30px;
+    font-size: 15px;
+
+    cursor:pointer;
+    transition: .3s ease all;
+}
+
+
+.gradient {
+    background:rgb(0, 0, 0, 0.4);
+    background-image: linear-gradient(to top,rgba(121, 93, 93, 0.384) 0,rgba(0,0,0,0) 60%,rgba(0,0,0,.0.06) 100%);
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+
+.section {
+    background: black;
+    padding: 4rem 0;
+    border-top: 18px solid rgb(59, 58, 58);
+    border-bottom: 18px solid rgb(56, 56, 56);
+}
+
+.section h1{
+    font-size: 50px;
+    margin-bottom: 16px;
+}
+
+.section p{
+    font-size: 26px;
+}
+
+.grid{
+    display: grid;
+    grid-template-columns: 1.1fr 1fr;
+    align-items: center;
+}
+
+.img-tv{
+    position: relative;
+    width: 200px;
+}
+
+.img-tv img{
+    position: relative;
+    z-index: 1;
+}
+
+.video-tv{
+    position: absolute;
+    top: 84px;
+    left: 70px;
+}
+
+
+.footer{
+    padding: 4rem 0 2rem 0;
+    border-top: 8px solid #222;
+    background: rgb(0, 0, 0);
+    text-align: center;
+    display: grid;
+    justify-items: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 13;
+}
